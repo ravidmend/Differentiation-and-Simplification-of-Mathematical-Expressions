@@ -55,9 +55,9 @@ A `differentiate` method is added to the `Expression` interface, allowing the di
 Expression e = new Pow(new Var("x"), new Num(4));
 
 Expression de = e.differentiate("x");
-```
-System.out.println(de); // Outputs: 4*(x^3)
 
+System.out.println(de); // Outputs: 4*(x^3)
+```
 
 ## Part 3: Simplification
 
